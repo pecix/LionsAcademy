@@ -7,9 +7,9 @@ public class Ad3 {
     public int greenTicket(int a, int b, int c) {
         score = 0;
 
-        if (a == b && a == c){
+        if (a == b && a == c) {
             score = 20;
-        } else if (a != b && a != c && b !=c){
+        } else if (a != b && a != c && b != c) {
             score = 0;
         } else {
             score = 10;

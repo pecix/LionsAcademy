@@ -2,7 +2,7 @@ package LionsAcademy;
 
 public class App {
 
-    public static void main( String[] args ){
+    public static void main(String[] args) {
 
         String[] words = {"a", "bb", "b", "ccc"};
 
@@ -16,15 +16,16 @@ public class App {
 //-----------------------------------------------------------------------------
         Ad2 ad2 = new Ad2();
         System.out.println("Ad. 2");
-        for (String s: ad2.wordsFront(words, 1)){
+        for (String s : ad2.wordsFront(words, 1)) {
+            System.out.print(s + ", ");
+        }
+        ;
+        System.out.println();
+        for (String s : ad2.wordsFront(words, 2)) {
             System.out.print(s + ", ");
         };
         System.out.println();
-        for (String s: ad2.wordsFront(words, 2)){
-            System.out.print(s + ", ");
-        };
-        System.out.println();
-        for (String s: ad2.wordsFront(words, 3)){
+        for (String s : ad2.wordsFront(words, 3)) {
             System.out.print(s + ", ");
         };
         System.out.println();
@@ -32,9 +33,9 @@ public class App {
 //-----------------------------------------------------------------------------
         Ad3 ad3 = new Ad3();
         System.out.println("Ad. 3");
-        System.out.println(ad3.greenTicket(1,2,3));
-        System.out.println(ad3.greenTicket(2,2,2));
-        System.out.println(ad3.greenTicket(1,1,2));
+        System.out.println(ad3.greenTicket(1, 2, 3));
+        System.out.println(ad3.greenTicket(2, 2, 2));
+        System.out.println(ad3.greenTicket(1, 1, 2));
 
 
     }
